@@ -109,7 +109,6 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		3C90CEAB180C6A3000C89B3A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5F53DAEC1727B9E800DE6269 /* UnitTests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UnitTests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F53DAEE1727B9E800DE6269 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,7 +246,6 @@
 			children = (
 				3C90CEAB180C6A3000C89B3A /* XCTest.framework */,
 				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
-				5F53DAEE1727B9E800DE6269 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
