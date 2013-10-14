@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "220AD7971509019B00748655"
-               BuildableName = "UnitTests OSX.octest"
+               BuildableName = "UnitTests OSX.xctest"
                BlueprintName = "UnitTests OSX"
                ReferencedContainer = "container:MockServer.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "220AD7971509019B00748655"
-               BuildableName = "UnitTests OSX.octest"
+               BuildableName = "UnitTests OSX.xctest"
                BlueprintName = "UnitTests OSX"
                ReferencedContainer = "container:MockServer.xcodeproj">
             </BuildableReference>

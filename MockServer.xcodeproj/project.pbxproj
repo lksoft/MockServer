@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		220AD79A1509019B00748655 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220AD7991509019B00748655 /* SenTestingKit.framework */; };
 		2239A20A164C53F3008D4ADE /* KMSServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2239A201164C53F3008D4ADE /* KMSServer.m */; };
 		2239A20B164C53F3008D4ADE /* KMSConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2239A203164C53F3008D4ADE /* KMSConnection.m */; };
 		2239A20D164C53F3008D4ADE /* KMSListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 2239A207164C53F3008D4ADE /* KMSListener.m */; };
@@ -27,7 +26,8 @@
 		22A6603416B32EFB00117D24 /* KMSCloseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A6603316B32EFB00117D24 /* KMSCloseCommand.m */; };
 		22BC963B167FB72200144FFE /* http.json in Resources */ = {isa = PBXBuildFile; fileRef = 22BC963A167FB72200144FFE /* http.json */; };
 		22F6D0D8165A5B2400443CC9 /* KMSRegExResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F6D0D7165A5B2400443CC9 /* KMSRegExResponder.m */; };
-		5F53DAED1727B9E800DE6269 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220AD7991509019B00748655 /* SenTestingKit.framework */; };
+		3C90CEAC180C6A3000C89B3A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C90CEAB180C6A3000C89B3A /* XCTest.framework */; };
+		3C90CEAD180C6A3800C89B3A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C90CEAB180C6A3000C89B3A /* XCTest.framework */; };
 		5F53DAFF1727BAF000DE6269 /* KMSCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A6602416B3198300117D24 /* KMSCommand.m */; };
 		5F53DB001727BAF000DE6269 /* KMSServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2239A201164C53F3008D4ADE /* KMSServer.m */; };
 		5F53DB011727BAF000DE6269 /* KMSRegExResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F6D0D7165A5B2400443CC9 /* KMSRegExResponder.m */; };
@@ -62,8 +62,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		220AD7981509019B00748655 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = UnitTests.octest; path = "UnitTests OSX.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		220AD7991509019B00748655 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		220AD7981509019B00748655 /* UnitTests OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UnitTests OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2239A1FD164C5381008D4ADE /* UnitTest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UnitTest.plist; sourceTree = "<group>"; };
 		2239A200164C53F3008D4ADE /* KMSServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSServer.h; sourceTree = SOURCE_ROOT; };
 		2239A201164C53F3008D4ADE /* KMSServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSServer.m; sourceTree = SOURCE_ROOT; };
@@ -108,7 +107,8 @@
 		22F6D0DA165A65AB00443CC9 /* Classes.graffle */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Classes.graffle; sourceTree = "<group>"; };
 		22F6D0DB165A65AB00443CC9 /* Design-template.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Design-template.md"; sourceTree = "<group>"; wrapsLines = 1; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		5F53DAEC1727B9E800DE6269 /* UnitTests iOS.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UnitTests iOS.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C90CEAB180C6A3000C89B3A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5F53DAEC1727B9E800DE6269 /* UnitTests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UnitTests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F53DAEE1727B9E800DE6269 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -117,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				220AD79A1509019B00748655 /* SenTestingKit.framework in Frameworks */,
+				3C90CEAC180C6A3000C89B3A /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F53DAED1727B9E800DE6269 /* SenTestingKit.framework in Frameworks */,
+				3C90CEAD180C6A3800C89B3A /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +135,8 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				220AD7981509019B00748655 /* UnitTests.octest */,
-				5F53DAEC1727B9E800DE6269 /* UnitTests iOS.octest */,
+				220AD7981509019B00748655 /* UnitTests OSX.xctest */,
+				5F53DAEC1727B9E800DE6269 /* UnitTests iOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -245,8 +245,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3C90CEAB180C6A3000C89B3A /* XCTest.framework */,
 				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
-				220AD7991509019B00748655 /* SenTestingKit.framework */,
 				5F53DAEE1727B9E800DE6269 /* UIKit.framework */,
 			);
 			name = Frameworks;
@@ -271,8 +271,8 @@
 			);
 			name = "UnitTests OSX";
 			productName = Tests;
-			productReference = 220AD7981509019B00748655 /* UnitTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 220AD7981509019B00748655 /* UnitTests OSX.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		5F53DAEB1727B9E800DE6269 /* UnitTests iOS */ = {
 			isa = PBXNativeTarget;
@@ -289,8 +289,8 @@
 			);
 			name = "UnitTests iOS";
 			productName = "UnitTests-iOS";
-			productReference = 5F53DAEC1727B9E800DE6269 /* UnitTests iOS.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 5F53DAEC1727B9E800DE6269 /* UnitTests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -440,7 +440,10 @@
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -458,7 +461,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -470,7 +472,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -480,7 +485,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "\"@loader_path/../Frameworks\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -492,7 +496,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -502,7 +509,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "\"@loader_path/../Frameworks\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Plugin;
 		};
@@ -519,8 +525,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\\\"$(SDKROOT)/Developer/Library/Frameworks\\\"",
+					"\\\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\\\"",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -535,7 +543,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -552,8 +559,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\\\"$(SDKROOT)/Developer/Library/Frameworks\\\"",
+					"\\\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\\\"",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -562,7 +571,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -579,8 +587,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\\\"$(SDKROOT)/Developer/Library/Frameworks\\\"",
+					"\\\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\\\"",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -589,7 +599,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Plugin;
 		};
