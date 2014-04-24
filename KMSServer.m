@@ -180,6 +180,7 @@ NSString *const OutputRunMode = @"OutputRunMode"; //NSDefaultRunLoopMode
     KMSAssert(self.state != KMSStopped);
 
     KMSLogDetail(@"running until paused");
+	self.state = KMSRunning;
     while (self.state != KMSPauseRequested)
     {
         @autoreleasepool {
